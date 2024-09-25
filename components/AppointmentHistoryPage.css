@@ -1,0 +1,26 @@
+/* Center the content and make text white */
+.text-white {
+    color: white;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Card styling for appointments */
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Make the back button more prominent */
+  .btn-outline-primary {
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
